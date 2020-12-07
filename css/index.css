@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner {
+    background-image: url(../img/baby-yoda.svg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    width: 100px;
+    border: 1px solid transparent;
+}
+
+.menu a:hover {
+    border: 1px solid black;
+    /* border-color: blue; */
+    font-weight: bold;
+}
+
+h1 {
+    color: red;
+}
+
+.product-card img {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.product-card h3 {
+    text-align: center;
+}
+
+.product-card {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
